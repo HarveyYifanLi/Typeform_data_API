@@ -150,9 +150,7 @@ def main():
     # The spanning of columns are enabled upon calling zip() function
     #for i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12 in zip(list_choice,date,textarea,yesno,number,network_id,platform,referer,user_agent,date_submit,date_land,browser): 
         #print '{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}'.format(list_choice,date,textarea,yesno,number,network_id,platform,referer,user_agent,date_submit,date_land,browser)
-    
-    #sys.stdout = orig_stdout 
-    #file.close()
+   
     data = [list_choice,date,textarea,yesno,number,network_id,platform,referer,user_agent,date_submit,date_land,browser]
     col_width = max(len(word) for row in data for word in row) + 2  # padding
     

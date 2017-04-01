@@ -7,6 +7,6 @@ Specifically, our table contains responses from both the answers and the metadat
 form.
 
 
-The final output.csv file contains a table having 12 columns and 16 rows,
-with each column representing each type of responses object (e.g. "list_46100308_choice","textarea_46098446","network_id" etc)
-and with each row representing each user response.
+The final output.csv file contains a table
+with each row representing each type of responses object (e.g. "list_46100308_choice","textarea_46098446","network_id" etc)
+and with each column representing each user response.

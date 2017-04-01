@@ -38,14 +38,14 @@ def main():
     for each_dict in responses:
         print each_dict.keys()
     
-    #Declare the necessary responses objects (as lists) for the answers and the metadata two parts
-    # for the response objects from the answers
+    # Declare the necessary responses objects (as lists) for the "answers" and the "metadata" two parts.
+    # For the response objects from the answers
     list_choice = []
     date = []
     textarea = []
     yesno = []
     number = []
-    # for the response objects from the metadata
+    # For the response objects from the metadata
     network_id = []
     platform = []
     referer = []
@@ -54,7 +54,7 @@ def main():
     date_land = []
     browser = []
     
-    #create the responses objects:
+    # create the responses objects:
     for each_dict in responses:
         
         # iterate the loop by the keys
@@ -127,6 +127,7 @@ def main():
                        browser.append(v1)
     
     # Sanity Check on the size of the processed data structures corresponding to responses objects
+    # by doing this we have directly detected that the sizes of responses onjects didnt match initially.
     print len(list_choice)
     print len(date)
     print len(textarea)

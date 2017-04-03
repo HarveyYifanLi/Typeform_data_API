@@ -1,7 +1,7 @@
 ## Typeform_data_API
-The python file Typeform_API.py requests data froms from Typeform website using the 
-specific API key of a specific user account and then firstly save the raw data into a json
-file consequently parsing the json objects as pyton objects and produce a single table containing
+The python file Typeform_API.py requests data forms from Typeform website which corresponds
+to customer responses to a typeform questionare (e.g. marketing research) using a specific API key of a specific registered account and then firstly save the raw data into a json
+file consequently parsing the json objects as pyton objects and then produce a single table containing
 all the responses objects in a CSV file.
 Specifically, our table contains responses from both the answers and the metadata parts of the data 
 form.
